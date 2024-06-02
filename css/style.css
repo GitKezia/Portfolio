@@ -4,7 +4,7 @@
   --cor-terciaria: #110304;
   --cor-hover-link-links: #bfc5e0;
 
-  --font-primaria: DM Serif Display, sans-serif;
+  --fonte-primaria: DM Serif Display, sans-serif;
 
 }
 
@@ -50,8 +50,8 @@ a {
 }
 
 .cabecalho__menu__link{
-  font-family:  DM Serif Display, sans-serif;
-  font-size: 24px;
+  font-family:  var(--fonte-primaria);
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--cor-secundaria);
   text-decoration: none;
@@ -62,7 +62,7 @@ a {
 }
 
 .texto__convite{
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -82,8 +82,8 @@ a {
   width: 10%;
   text-align: center;
   border-radius: 8px;
-  font-family: DM Serif Display, sans-serif;
-  font-size: 20px;
+  font-family: var(--fonte-primaria);
+  font-size: 1.25rem;
   font-weight: 600px;
   padding: 10px 0;
   text-decoration: none;
@@ -99,9 +99,10 @@ a {
 .rodape {
   padding: 24px;
   background-color: var(--cor-primaria);
-  font-family: DM Serif Display, sans-serif;
+  font-family: var(--fonte-primaria);
   width: 100%;
   text-align: center;
+  font-size: 1.5rem;
   font-weight: 400;
 }
   
@@ -2309,8 +2310,9 @@ a {
     margin-bottom: 3rem;
   }
   
-  .text-color-red {
+  .container__text {
     color: var(--cor-primaria);
+    font-size: 2.25rem;
   }
   
   .card {
@@ -2430,3 +2432,5 @@ a {
       order: -9999;
     }
   }
+
+  @media
